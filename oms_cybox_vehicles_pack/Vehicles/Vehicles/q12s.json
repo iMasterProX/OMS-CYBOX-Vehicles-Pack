@@ -1,0 +1,28 @@
+{
+  "name": "q12s",
+  "design": "q12s",
+  "type": 0,
+  "version": 1,
+
+  "scale": 1,
+
+  "baseOffset": 1,
+
+  "seatPositions": {
+    "driver": [0, 0.7, -0.7]
+  },
+
+  "BBox": [0,0,0,1,1,1],
+
+  "gravity": 0,
+
+  "speedMultiplier": {
+    "forward": 2,
+    "backward": 0.2
+  },
+
+  "directionMultiplier": {
+    "left": 1,
+    "right": 1
+  }
+}

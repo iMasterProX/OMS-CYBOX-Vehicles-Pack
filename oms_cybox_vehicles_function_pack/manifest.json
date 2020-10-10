@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "OMS-CYBOX VEHICLES FUNCTION PACK : 우마공-CYBOX 자동차팩 보조",
+        "name": "OMS-CYBOX VEHICLES FUNCTION PACK : 우마공-CYBOX 자동차팩 보조",
+        "uuid": "d60b0153-6a81-4bbb-8bc6-11e4fe213649",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 2, 6]
+    },
+    "modules": [
+        {
+            "description": "OMS-CYBOX VEHICLES FUNCTION PACK : 우마공-CYBOX 자동차팩 보조",
+            "type": "resources",
+            "uuid": "600d058f-1f4f-46a7-93a5-4866700ff8fc",
+            "version": [1, 0, 0]
+        }
+    ]
+}

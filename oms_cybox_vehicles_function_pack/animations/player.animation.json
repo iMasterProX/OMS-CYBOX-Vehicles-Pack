@@ -1,0 +1,79 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+	"animation.player.riding.arms": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [-80, 0, 0],
+					"position": [0, 0, -2]
+				},
+				"leftArm": {
+					"rotation": [-80, 0, 0],
+					"position": [0, 0, -2]
+				},
+				"body": {
+					"rotation": [10, 0, 0],
+					"position": [0, 0, -2]
+				},
+				"head": {
+					"position": [0, 0, 0]
+				},
+				"hat": {
+					"position": [0, 0, 0]
+				},
+				"rightLeg": {
+					"rotation": [-90, 5, 0],
+					"position": [0, 0, 1]
+				},
+				"leftLeg": {
+					"rotation": [-90, -5, 0],
+					"position": [0, 0, 1]
+				}
+			}
+		},
+		"animation.player.riding.arms.zombie": {
+			"loop": true
+		},
+		"animation.player.riding.legs": {
+			"loop": true
+		},
+		"animation.player.test": {
+			"loop": true,
+			"animation_length": 0.2,
+			"bones": {
+				"A": {
+					"rotation": {
+						"0.0": [0, "Math.max(-12, Math.min(12,query.yaw_speed))", 0],
+						"0.1667": [179, "Math.max(-12, Math.min(12,query.yaw_speed))", 0],
+						"0.3167": [364.9, "Math.max(-12, Math.min(12,query.yaw_speed))", 0]
+					}
+				},
+				"B": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [179, 0, 0],
+						"0.3167": [364.9, 0, 0]
+					}
+				},
+				"C": {
+					"rotation": {
+						"0.0": [0, "Math.max(-12, Math.min(12,query.yaw_speed))", 0],
+						"0.1667": [179, "Math.max(-12, Math.min(12,query.yaw_speed))", 0],
+						"0.3167": [364.9, "Math.max(-12, Math.min(12,query.yaw_speed))", 0]
+					}
+				},
+				"D": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.1667": [179, 0, 0],
+						"0.3167": [364.9, 0, 0]
+					}
+				},
+				"steering_wheel": {
+					"rotation": [0, 0, "Math.max(-28, Math.min(28,query.yaw_speed * 0.5)) * -query.modified_move_speed * 0.7"]
+				}
+			}
+		}
+	}
+}

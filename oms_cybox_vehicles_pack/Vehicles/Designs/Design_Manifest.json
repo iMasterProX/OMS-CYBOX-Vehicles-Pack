@@ -1,0 +1,26 @@
+[
+  {
+    "name": "BasicCar",
+    "uuid": "73192065-b069-4e15-897a-b6af73dbb5bd"
+  },
+  {
+    "name": "tosca",
+    "uuid": "f9e4732a-9f1d-4134-af51-8e6faaa964de"
+  },
+  {
+    "name": "discovery",
+    "uuid": "fce0ca3f-443b-430e-9a03-ad2c365b6e36"
+  },
+  {
+    "name": "q12s",
+    "uuid": "7ac7dc8a-9090-4734-abd2-b56e44ca75b8"
+  },
+  {
+    "name": "sm525v",
+    "uuid": "d90cc36c-a742-4b5c-98fe-9e88216751f6"
+  },
+  {
+    "name": "spark",
+    "uuid": "5f13a22a-184c-4a66-97d9-2cd54d4a3cbe"
+  }
+]
